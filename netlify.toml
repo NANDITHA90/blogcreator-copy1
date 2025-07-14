@@ -30,7 +30,8 @@
   functions = "netlify/functions"
 
 # Function settings
-[functions]
+[functions."*"]
+
   # Timeout for functions (max 10 seconds for free tier)
   # timeout = 10
   # Memory allocation
